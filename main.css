@@ -27,7 +27,7 @@ a {
 }
 
 .rotated {
-    width: 100vh;
+    width: calc(100vh - 60px);
     height: calc(100vw + 60px);
     transform: rotate(90deg) translateX(-40vh) translateY(-20vw);
 }
